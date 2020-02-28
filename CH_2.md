@@ -23,6 +23,7 @@ Where:
 - <img src = "https://latex.codecogs.com/svg.latex?%5Cinline%20J_1"> = number of 1 degree of freedom joints 
 - <img src = "https://latex.codecogs.com/svg.latex?%5Cinline%20J_2"> = number of 2 degrees of freedom joints
   
+
 **where k links connect at a single joint, it must be counted as k-1 joints**
 
 ### Summary: Mobility
