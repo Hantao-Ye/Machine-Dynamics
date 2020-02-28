@@ -2,7 +2,7 @@
 
 ## 北京交通大学-机器动力学（20L752Q）
 
-This is the personal notes in learning mechanics of materials.
+This is the personal notes in learning machine dynamics.
 
 **Please feel free to:**
 
