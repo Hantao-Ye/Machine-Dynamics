@@ -39,11 +39,11 @@ transfer movement
 
 - 3 bar mechanism
 
-<div align = center><img width = 200 px src = "/assets/CH_1_Figure_1.png"></div>
+<div align = center><img width = 200 px src = "./assets/CH_1_Figure_1.png"></div>
 
 - 4 bar mechanism
 
-<div align = center><img width = 300 px src ="/assets/CH_1_Figure_2.png"></div>
+<div align = center><img width = 300 px src ="./assets/CH_1_Figure_2.png"></div>
 
 ## Degree of freedom (mobility)
 
