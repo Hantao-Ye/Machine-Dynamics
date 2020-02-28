@@ -14,7 +14,7 @@ the mobility is the numbers of freedom
 
 ### Gruebler's Equation
 
-<center><img src = "https://latex.codecogs.com/svg.latex?M%3D3%28L-1%29-2J_1-J_2"></center>
+<div align = center><img src = "https://latex.codecogs.com/svg.latex?M%3D3%28L-1%29-2J_1-J_2"></div>
 
 Where:
 
