@@ -1,5 +1,7 @@
 # CH_1
 
+[TOC]
+
 ## Overall Purpose
 
 - Synthesis of mechanisms to accomplish desired motions or tasks
