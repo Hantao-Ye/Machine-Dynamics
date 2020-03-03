@@ -77,3 +77,5 @@ If $S+L\leq P+Q$, then the linkage is Grashof
 - **Class III case,** $S+L=P+Q$
 
     All inversions will be either **Double Ranks** or **Crank Rockers**
+
+<div align = center><img src = "./assets/CH_2_Figure_2.png"></div>
