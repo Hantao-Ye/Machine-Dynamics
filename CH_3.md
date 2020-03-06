@@ -1,4 +1,4 @@
-# CH_3
+# Lecture_3
 
 [TOC]
 
@@ -6,7 +6,7 @@
 
 _design or create a mechanism to give a certain motion_
 
-## 1 Synthesis
+## 1. Synthesis
 
 ### Qualitative Synthesis
 
@@ -21,7 +21,7 @@ the definition of the proper type of mechanism best suited to the problem
 the determination of the proportions (lengths) of the links necessary to
 accomplish the desired motions
 
-## 2 Function, Path and Motion Generation
+## 2. Function, Path and Motion Generation
 
 ### Function Generation
 
@@ -35,11 +35,11 @@ output motion is a defined path along a set of $x\text{, }y$ points
 
 output motion is a set of positions of a line defined as $x\text{, }y\text{, }\theta$ successive locations
 
-## 3 Limiting Conditions
+## 3. Limiting Conditions
 
 ### Toggle
 
-the toggle positions are determined by the colinearity of two moving links
+the toggle positions are determined by the collinearity of two moving links
 
 <div align = center><img src = "./assets/CH_3_Figure_1.png"></div>
 
@@ -58,7 +58,7 @@ the transmission angle is defined as the acute angle between the output link and
 - most machine designer try to keep the minimum TA above 40 degree
 - when TA is less than 45 degree, the radial component is larger than the tangential component
 
-## 4 Dimensional Synthesis
+## 4. Dimensional Synthesis
 
 ### Dimensional Synthesis
 

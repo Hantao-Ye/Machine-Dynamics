@@ -1,22 +1,22 @@
-# CH_2
+# Lecture_2
 
 [TOC]
-## Kinematic Chain
+## 1. Kinematic Chain
 
-is an assembly of links connected by means of paris
+is an assembly of links connected by means of pairs
 
 - Locked Chain
 - A Constrained Chain
 - An Unconstrained Chain
 
-## Mobility
+## 2. Mobility
 
 the mobility is the numbers of freedom
 
 ### Gruebler's Equation
 
 $$
-    M=3(L-1)-2J_1-J_2
+M=3(L-1)-2J_1-J_2
 $$
 
 Where:
@@ -35,17 +35,17 @@ Where:
 - $M = 0$: a statically determinate structure
 - $M < 0$: a statically indeterminate structure
 
-## Paradoxes
+## 3. Paradoxes
 
 Because the Gruebler criterion pays no attention to link sizes or shapes, it can give misleading results in the face of unique geometric configurations.
 
-## Inversion
+## 4. Inversion
 
 an inversion is created by grounding a different link in the kinematic chain.
 
 <div align = center><img src = "./assets/CH_2_Figure_1.png"></div>
 
-### Grashof Conditions
+## 5. Grashof Conditions
 
 Let:
 
