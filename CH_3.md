@@ -60,10 +60,20 @@ the transmission angle is defined as the acute angle between the output link and
 
 ## 4. Dimensional Synthesis
 
-### Dimensional Synthesis
+- Dimensional Synthesis
 
-a linkage is the determination of the proportions of the links necessary to accomplish the desired motions
+    a linkage is the determination of the proportions of the links necessary to accomplish the desired motions
 
-### Two-Position Synthesis
+- Two-Position Synthesis
 
-**rocker output** (pure rotation) and **coupler output** (complex motion)
+    **rocker output** (pure rotation) and **coupler output** (complex motion)
+
+### Example 1
+<div align = center><img src = "./assets/Ch_3_figure_3.png"></div>
+
+### Example 2
+<div align = center><img src ="./assets/Ch_3_figure_4.png"></div>
+
+### Example 3
+
+<div align = center><img src = "./assets/Ch_3_figure_5.png"></div>
