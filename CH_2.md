@@ -70,6 +70,12 @@ If $S+L\leq P+Q$, then the linkage is Grashof
 
     Ground the opposite link to the shortest: **Grashof Double Rocker**
 
+> **crank-rocker**: the shortest link will fully rotate and the other link pivoted to ground will oscillate
+> **double-crank**: both links pivoted to ground make complete revolutions as does the coupler
+> **Grashof double-rocker**: both links pivoted to ground oscillate and only the coupler makes a full revolution
+
+<div align = center><img src = "./assets/CH_2_Figure_3.png"></div>
+
 - **Class II case,** $S+L>P+Q$
 
     All inversions will be **Triple Rockers**

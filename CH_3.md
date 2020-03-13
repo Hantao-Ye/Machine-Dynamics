@@ -62,18 +62,50 @@ the transmission angle is defined as the acute angle between the output link and
 
 - Dimensional Synthesis
 
-    a linkage is the determination of the proportions of the links necessary to accomplish the desired motions
+  a linkage is the determination of the proportions of the links necessary to accomplish the desired motions
 
 - Two-Position Synthesis
 
-    **rocker output** (pure rotation) and **coupler output** (complex motion)
+  **rocker output** (pure rotation) and **coupler output** (complex motion)
 
 ### Example 1
+
+**Basic Synthesis**
+
 <div align = center><img src = "./assets/Ch_3_figure_3.png"></div>
 
 ### Example 2
+
+**Crank Rocker**
+
 <div align = center><img src ="./assets/Ch_3_figure_4.png"></div>
 
 ### Example 3
 
+**Double Crank**
+
 <div align = center><img src = "./assets/Ch_3_figure_5.png"></div>
+
+### Example 4
+
+**Add a Dyad on Double Crank**
+
+<div align = center><img src = "./assets/Ch_3_figure_6.png"></div>
+
+### Example 5
+
+**Three-Position Synthesis**
+
+<div align = center><img src = "./assets/Ch_3_figure_7.png"></div>
+
+### Example 6
+
+**Find Fixed Pivots of Three-Position Synthesis**
+
+>**Key Point**: find the *fixed* relative positions of the moving pivots
+
+<div align = center><img src = "./assets/Ch_3_figure_8.png"></div>
+
+### Example 7
+
+**Find the Fourbar Linkage Using the Fixed Pivots**
