@@ -102,10 +102,41 @@ the transmission angle is defined as the acute angle between the output link and
 
 **Find Fixed Pivots of Three-Position Synthesis**
 
->**Key Point**: find the *fixed* relative positions of the moving pivots
+> **Key Point**: find the _fixed_ relative positions of the moving pivots
 
 <div align = center><img src = "./assets/Ch_3_figure_8.png"></div>
 
-### Example 7
+### Example 7 & 8
 
 **Find the Fourbar Linkage Using the Fixed Pivots**
+
+> **Key Point**: find the _fixed_ relative positions of $O_2O_4$ to bar $CD$
+
+<div align = center><img src = "./assets/Ch_3_figure_9.png"></div>
+
+<div align = center><img src = "./assets/Ch_3_figure_10.png"></div>
+
+<div align = center><img src = "./assets/Ch_3_figure_11.png"></div>
+
+<div align = center><img src = "./assets/Ch_3_figure_12.png"></div>
+
+<div align = center><img src = "./assets/Ch_3_figure_13.png"></div>
+
+## 5 Quick Return Mechanisms
+
+### Fourbar Quick-Return
+
+time-ratio ($T_R$): the degree of quick-return of the linkage
+
+<div align = center><img src = "./assets/Ch_3_figure_14.png"></div>
+
+$$
+\begin{aligned}
+T_R&=\frac{\alpha}{\beta}\qquad\alpha+\beta=2\pi\\[2ex]
+T_R&=\frac{\alpha}{2\pi-\alpha}\\[2ex]
+\end{aligned}
+$$
+
+<div align = center><img src = "./assets/Ch_3_figure_15.png"></div>
+
+<div align = center><img src = "./assets/Ch_3_figure_16.png"></div>
