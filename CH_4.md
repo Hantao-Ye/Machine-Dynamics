@@ -1,4 +1,4 @@
-# Lecture_4
+# Chapter 8
 
 [TOC]
 
@@ -141,3 +141,39 @@ cut a sine wave into three pieced and recombine them with a square wave
 
 ### Polynomial Functions
 
+#### 3-4-5 Polynomial
+
+$$
+\begin{aligned}
+  s &= C_0 + C_1(\frac{\theta}{\beta})+C_2(\frac{\theta}{\beta})^2+C_3(\frac{\theta}{\beta})^3+C_4(\frac{\theta}{\beta})^4+C_5(\frac{\theta}{\beta})^5\\[2ex]
+  v &= \frac{1}{\beta}[C_1+2C_2(\frac{\theta}{\beta})+3C_3(\frac{\theta}{\beta})^2+4C_4(\frac{\theta}{\beta})^3+5C_5(\frac{\theta}{\beta})^4]\\[2ex]
+  a &= \frac{1}{\beta^2}[2C_2+6C_3(\frac{\theta}{\beta})+12C_4(\frac{\theta}{\beta})^2+20C_5(\frac{\theta}{\beta})^3]\\[2ex]
+\end{aligned}\\[4ex]
+\begin{aligned}
+  &\theta = 0\qquad s = 0 =C_0\qquad v = 0= \frac{C_1}{\beta}\qquad a = 0 =\frac{2C_2}{\beta}\\[2ex]
+  &\theta = \beta\qquad s = h =C_3+C_4+C_5\\[2ex]
+  &\qquad\qquad v = 0= 3C_3+4C_4+5C_5\\[2ex]
+  &\qquad\qquad a = 0 =6C_3+12C_4+20C_5\\[2ex]
+\end{aligned}\\[6ex]
+\Rightarrow \qquad s = h[10(\frac{\theta}{\beta})^3-15(\frac{\theta}{\beta}^4)+6(\frac{\theta}{\beta})^5]
+$$
+<div align = left><img height = 400 src = "./assets/CH_4_Figure_11.png"></div>
+
+#### 4-5-6-7 Polynomial
+
+$$
+  s = h[35(\frac{\theta}{\beta})^4-84(\frac{\theta}{\beta})^5+70(\frac{\theta}{\beta})^5-20(\frac{\theta}{\beta})^7]
+$$
+<div align = right><img height = 400 src = "./assets/CH_4_Figure_11.png"></div>
+
+### Comparisons
+
+<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_13.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_14.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_15.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_16.png"></div>
+<div align = center><img height = 300 width=580 src = "./assets/CH_4_Figure_17.png"></div>
+
+## 8.4 Single Dwell Cam Design Using Double Dwell Functions
+
+skipped

@@ -1,4 +1,4 @@
-# Lecture_3
+# Chapter 3
 
 [TOC]
 
@@ -6,7 +6,7 @@
 
 _design or create a mechanism to give a certain motion_
 
-## 1. Synthesis
+## 3.1 Synthesis
 
 ### Qualitative Synthesis
 
@@ -21,7 +21,7 @@ the definition of the proper type of mechanism best suited to the problem
 the determination of the proportions (lengths) of the links necessary to
 accomplish the desired motions
 
-## 2. Function, Path and Motion Generation
+## 3.2 Function, Path and Motion Generation
 
 ### Function Generation
 
@@ -35,7 +35,7 @@ output motion is a defined path along a set of $x\text{, }y$ points
 
 output motion is a set of positions of a line defined as $x\text{, }y\text{, }\theta$ successive locations
 
-## 3. Limiting Conditions
+## 3.3 Limiting Conditions
 
 ### Toggle
 
@@ -58,7 +58,7 @@ the transmission angle is defined as the acute angle between the output link and
 - most machine designer try to keep the minimum TA above 40 degree
 - when TA is less than 45 degree, the radial component is larger than the tangential component
 
-## 4. Dimensional Synthesis
+## 3.4 Dimensional Synthesis
 
 - Dimensional Synthesis
 
@@ -122,7 +122,7 @@ the transmission angle is defined as the acute angle between the output link and
 
 <div align = center><img src = "./assets/Ch_3_figure_13.png"></div>
 
-## 5 Quick Return Mechanisms
+## 3.5 Quick Return Mechanisms
 
 ### Fourbar Quick-Return
 

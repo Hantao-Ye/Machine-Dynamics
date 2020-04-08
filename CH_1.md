@@ -1,8 +1,8 @@
-# Lecture_1
+# Chapter 1
 
 [TOC]
 
-## 1. Overall Purpose
+## 1.1 Overall Purpose
 
 - Synthesis of mechanisms to accomplish desired motions or tasks
 - Analysis of mechanisms to determine their rigid-body dynamic behavior
@@ -24,7 +24,7 @@ the study of motion **without** regard of forces
 
 the study of forces in motion
 
-## 2. Mechanisms and Machines
+## 1.2 Mechanisms and Machines
 
 ### Machine:
 
@@ -47,7 +47,7 @@ transfer movement
 
 <div align = center><img width = 300 px src ="./assets/CH_1_Figure_2.png"></div>
 
-## 3. Degree of freedom (mobility)
+## 1.3 Degree of freedom (mobility)
 
 the number of independent parameters to uniquely define system position in space has 6 DOF
 
