@@ -45,7 +45,7 @@ an inversion is created by grounding a different link in the kinematic chain.
 
 <div align = center><img src = "./assets/CH_2_Figure_1.png"></div>
 
-## 5. Grashof Conditions
+## 2.5 Grashof Conditions
 
 Let:
 
@@ -66,7 +66,7 @@ If $S+L\leq P+Q$, then the linkage is Grashof
 
     Ground either link adjacent to the shortest: **Crank Rocker**
 
-    Ground the shortest link adjacent to the shortest: **Double Crank**
+    Ground the shortest link: **Double Crank**
 
     Ground the opposite link to the shortest: **Grashof Double Rocker**
 
