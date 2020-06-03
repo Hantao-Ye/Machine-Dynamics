@@ -23,9 +23,9 @@ A **follower** is a link or linkage train that is
 #### Type of Follower Motion
 
 - translating
-  <div align = center><img src ="./assets/CH_4_Figure_2.png"></div>
+  <div align = center><img src ="./assets/CH_8_Figure_2.png"></div>
 - rotating
-  <div align = center><img src ="./assets/CH_4_Figure_1.png"></div>
+  <div align = center><img src ="./assets/CH_8_Figure_1.png"></div>
 
 #### Type of Cam
 
@@ -35,10 +35,10 @@ A **follower** is a link or linkage train that is
 - axial cam
 
   also called a face cam if open(force closed) and a cylindrical or barrel cam if grooved or ribbed(formed-closed)
-  <div align = center><img src ="./assets/CH_4_Figure_5.png"></div>
+  <div align = center><img src ="./assets/CH_8_Figure_5.png"></div>
 
 - three-dimensional cam
-  <div align =center><img src ="./assets/CH_4_Figure_6.png"></div>
+  <div align =center><img src ="./assets/CH_8_Figure_6.png"></div>
 
 #### Type of Joint Closure
 
@@ -46,14 +46,14 @@ A **follower** is a link or linkage train that is
 
   requires **an external force** be applied to the joint in order to keep cam and follower physically in contact
 
-  <div align = center><img src ="./assets/CH_4_Figure_1.png"></div>
-  <div align = center><img src ="./assets/CH_4_Figure_2.png"></div>
+  <div align = center><img src ="./assets/CH_8_Figure_1.png"></div>
+  <div align = center><img src ="./assets/CH_8_Figure_2.png"></div>
 
 - form closed
 
   **closes the joint by geometry**
 
-  <div align = center><img src = "./assets/CH_4_Figure_3.png"></div>
+  <div align = center><img src = "./assets/CH_8_Figure_3.png"></div>
 
 #### Type of Follower
 
@@ -61,7 +61,7 @@ A **follower** is a link or linkage train that is
 - flat
 - rolling
 - sliding
-  <div align = center><img src ="./assets/CH_4_Figure_4.png"></div>
+  <div align = center><img src ="./assets/CH_8_Figure_4.png"></div>
 
 #### Type of Motion Constraints
 
@@ -88,7 +88,7 @@ $$
 \theta = \omega t
 $$
 
-<div align =center><img src = "./assets/CH_4_Figure_7.png"></div>
+<div align =center><img src = "./assets/CH_8_Figure_7.png"></div>
 
 ## 8.3 Double-Dwell Cam Design Choosing S V A J Functions
 
@@ -109,7 +109,7 @@ $$
 \end{aligned}
 $$
 
-<div align = right><img height = 400 src = "./assets/CH_4_Figure_8.png"></div>
+<div align = right><img height = 400 src = "./assets/CH_8_Figure_8.png"></div>
 
 - Acceleration discontinuous
 - Jerk is infinite
@@ -125,7 +125,7 @@ $$
 \end{aligned}
 $$
 
-<div align = right><img height = 400 src = "./assets/CH_4_Figure_9.png"></div>
+<div align = right><img height = 400 src = "./assets/CH_8_Figure_9.png"></div>
 
 - valid cam design
 - acceleration and velocity are higher than other functions
@@ -135,7 +135,7 @@ $$
 
 cut a sine wave into three pieced and recombine them with a square wave
 
-<div align = center><img src = "./assets/CH_4_Figure_10.png"></div>
+<div align = center><img src = "./assets/CH_8_Figure_10.png"></div>
 
 - lowest magnitude of peak acceleration of standard cam functions
 
@@ -157,22 +157,22 @@ $$
 \end{aligned}\\[6ex]
 \Rightarrow \qquad s = h[10(\frac{\theta}{\beta})^3-15(\frac{\theta}{\beta}^4)+6(\frac{\theta}{\beta})^5]
 $$
-<div align = left><img height = 400 src = "./assets/CH_4_Figure_11.png"></div>
+<div align = left><img height = 400 src = "./assets/CH_8_Figure_11.png"></div>
 
 #### 4-5-6-7 Polynomial
 
 $$
   s = h[35(\frac{\theta}{\beta})^4-84(\frac{\theta}{\beta})^5+70(\frac{\theta}{\beta})^5-20(\frac{\theta}{\beta})^7]
 $$
-<div align = right><img height = 400 src = "./assets/CH_4_Figure_11.png"></div>
+<div align = right><img height = 400 src = "./assets/CH_8_Figure_11.png"></div>
 
 ### Comparisons
 
-<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_13.png"></div>
-<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_14.png"></div>
-<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_15.png"></div>
-<div align = center><img height = 300 width=480 src = "./assets/CH_4_Figure_16.png"></div>
-<div align = center><img height = 300 width=580 src = "./assets/CH_4_Figure_17.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_8_Figure_13.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_8_Figure_14.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_8_Figure_15.png"></div>
+<div align = center><img height = 300 width=480 src = "./assets/CH_8_Figure_16.png"></div>
+<div align = center><img height = 300 width=580 src = "./assets/CH_8_Figure_17.png"></div>
 
 ## 8.4 Single Dwell Cam Design Using Double Dwell Functions
 
