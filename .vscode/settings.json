@@ -3,6 +3,8 @@
         "Fourbar",
         "colinearity",
         "grashof",
-        "gruebler"
+        "gruebler",
+        "lncs",
+        "lrcs"
     ]
 }
