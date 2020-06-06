@@ -159,7 +159,7 @@ Any three bodies in plane motion will have exactly three instant centers, and **
 
 **Notation**:
 
-there's a tricky way to find the wanswer
+there's a tricky way to find the answer
 
 <div align = center><img src = "./assets/CH_6_Figure_16.png"></div>
 
@@ -231,14 +231,14 @@ $$
 ### Example
 
 **Given $\theta_2$, $\theta_3$, $\theta_4$ and $\omega_2$, find $\omega_3$, $\omega_4$ and $V_A$ by graphical method**
+
 <div align = center><img src = "./assets/CH_6_Figure_21.png"></div>
 
-1. 根据输入角速度，求得杆件2对A的线速度
-2. 正交投影线速度，求出slip分量和trans分量
-3. 又因A点可视作绕点$O_4$旋转，确定其速度方向
-4. 同样正交投影速度，其trans分量应当与原先相同，可求得new slip分量
-5. 可知A点的slip分量即为上述两个slip分量相减
-
+1. 根据输入角速度，求得杆件 2 对 A 的线速度
+2. 正交投影线速度，求出 slip 分量和 trans 分量
+3. 又因 A 点可视作绕点$O_4$旋转，确定其速度方向
+4. 同样正交投影速度，其 trans 分量应当与原先相同，可求得 new slip 分量
+5. 可知 A 点的 slip 分量即为上述两个 slip 分量相减
 
 ## 6.6 Velocity Analysis by Unit Vector Method
 
@@ -250,12 +250,87 @@ $$
 4. State the orientation of the xy origin
 5. Define the direction to be used for the $i$,$j$ vectors
 
+$$
+\boldsymbol{V_P} = \boldsymbol{V_O} + \boldsymbol{V} + \boldsymbol{\omega}\times \boldsymbol{R}
+$$
+
+$\boldsymbol{V_P}$: velocity of point in the XYZ-system
+$\boldsymbol{V_O}$: velocity of origin of xyz-system relative to XYZ-system
+$\boldsymbol{V}$: velocity of point P relative to xyz-system
+$\boldsymbol{\omega}$: angular velocity of xyz-system relative to XYZ-system
+$\boldsymbol{R}$: distance from origin of xyz-system to point P
+
+<div align = center><img src = "./assets/CH_6_Figure_24.png"></div>
+
 ### Example 1
 
 **Use analytical method to find $v_B$, $\omega_3$ and $\omega_4$**
 
 <div align = center><img src = "./assets/CH_6_Figure_22.png"></div>
 
-1. 写出点B的速度矢量关系式: $\boldsymbol{V_B} = \boldsymbol{V_A}+V+\omega\times\boldsymbol{R}$
-2. 根据杆B旋转方向，将矢量表达式写成以i、j为方向向量的式子: $\boldsymbol{V_B}=V_B(\cos{3^\circ}i+\sin{3^\circ}j)$, $\boldsymbol{V_A} = V_A(\cos{37^\circ}i+\sin{37^\circ}j)$, $\omega\times R = \omega |O_2A| \vec{k}\times \vec{i}=\omega |O_2A|j$
-3. 利用$i$,$j$分量分别相等列出等式
+1. 写出点 B 的速度矢量关系式: $\boldsymbol{V_B} = \boldsymbol{V_A}+V+\omega\times\boldsymbol{R}$
+2. 根据杆 B 旋转方向，将矢量表达式写成以 i、j 为方向向量的式子: $\boldsymbol{V_B}=V_B(\cos{3^\circ}i+\sin{3^\circ}j)$, $\boldsymbol{V_A} = V_A(\cos{37^\circ}i+\sin{37^\circ}j)$, $\omega\times R = \omega |O_2A| k\times i=\omega |O_2A|j$
+3. 利用$i$,$j$分量分别相等列出等式解出未知量
+
+### Example 2
+
+**Use analytical method to find $V_{A4}$**
+
+<div align = center><img src = "./assets/CH_6_Figure_23.png"></div>
+
+1. 写出滑块的速度矢量关系式: $\vec{V_{A3}} = \vec{V_{A4}}+\vec{V}+\omega\times R$
+2. 完成 Magnitude-Direction 表，确定速度大小和方向的已知量和未知量
+   |Equation|$\vec{V_{A3}}$|$\vec{V_{A4}}$|$\vec{V}$|$\omega\times R$|
+   |:-:|:-:|:-:|:-:|:-:|
+   |Magnitude|1|0|0|none|
+   |Direction|1|1|1|none|
+3. 根据杆2旋转方向和坐标系的选取，写出$V_{A3}$,$V_{A4}$和$V$的表达式: $\vec{V_{A3}}=\omega_2|O_2A_2|(\cos{30^\circ}\boldsymbol{i}+\sin{30^\circ}\boldsymbol{j}) = 50\sqrt{3}\boldsymbol{i}+50\boldsymbol{j}$, $\vec{V_{A4}} = |V_{A4}|\boldsymbol{j}$, $\vec{v} = |V|\boldsymbol{i}$
+4. 利用$i$,$j$分量分别相等而列出灯饰解出未知量
+
+## 6.7 Analytical Solutions For Velocity Analysis
+
+### Fourbar Pin-Jointed Linkage
+
+<div align = center><img src = "./assets/CH_6_Figure_25.png"></div>
+
+$$
+R_2+R_3-R_4-R_1 = 0\\[2ex]
+ae^{j\theta_2}+be^{j\theta_3}-ce^{j\theta_4}-de^{j\theta_1}=0
+$$
+
+By differentiate the equation, we could get that
+
+$$
+\omega_2 ae^{j\theta_2}+\omega_3be^{j\theta_3}-\omega_4 ce^{j\theta_4} = 0\\[2ex]
+\begin{cases}
+    \omega_2 a \cos{\theta_2}+\omega_3 b\cos{\theta_3}-\omega_4c\cos{\theta_4} &= 0\\[2ex]
+    \omega_2 a \sin{\theta_2}+\omega_3 b\sin{\theta_3}-\omega_4c\sin{\theta_4} &= 0\\[2ex]
+\end{cases}\\
+\Longrightarrow
+\begin{cases}
+    \omega_3 = \frac{a\omega_2}{b}\frac{\sin{(\theta_4-\theta_2)}}{\sin{(\theta_4-\theta_3)}}\\[2ex]
+    \omega_4 = \frac{a\omega_2}{c}\frac{\sin{(\theta_2-\theta_3)}}{\sin{(\theta_4-\theta_3)}}\\[2ex]
+\end{cases}
+$$
+
+### Fourbar Slider-Crank
+
+<div align = center><img src = "./assets/CH_6_Figure_26.png"></div>
+
+$$
+R_2-R_3-R_4-R_1 = 0\\[2ex]
+ae^{j\theta_2}-be^{j\theta_3}-ce^{j\theta_4}-de^{j\theta_1}=0
+$$
+By differentiate the equation, we could get that
+
+$$
+j\omega_2 ae^{j\theta_2}-j\omega_3be^{j\theta_3}-\dot{d} = 0\\[2ex]
+\begin{cases}
+    \omega_2a\cos{\theta_2}-\omega_3b\cos{\theta_3} = 0\\[2ex]
+    \omega_2a\sin{\theta_2}-\omega_3b\sin{\theta_3} +\dot{d} = 0\\[2ex]
+\end{cases}\\
+\begin{cases}
+    \omega_3 = \frac{a}{b}\frac{\cos{\theta_2}}{\cos{\theta_3}}\omega_2\\[2ex]
+    \dot{d} = \frac{\sin{(\theta_3-\theta_2)}}{\cos\theta_3}a\omega_2
+\end{cases}
+$$
