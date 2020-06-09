@@ -128,25 +128,25 @@ Given $\omega_2$, $\theta_2$, use a graphical method to calculate the accelerati
 
 1. 沿杆 4 分解 A 点的速度，其垂直杆件 4 分量除以$|O_2|A$便为杆件 4 的角速度
 2. 接下来则是求四杆机构 4、5、6、地面的各杆件速度
-3. 列出矢量关系式$\vec{V_C} = \vec{V_B}+\vec{V_{BC}}$，列 Magnitude-Direction 表格，画图求得 C 点速度,顺带求出杆件5、6的角速度
+3. 列出矢量关系式$\vec{V_C} = \vec{V_B}+\vec{V_{BC}}$，列 Magnitude-Direction 表格，画图求得 C 点速度,顺带求出杆件 5、6 的角速度
    |Equation|$\vec{V_C}$|$\vec{V_B}$|$\vec{V_{BC}}$|
    |:--:|:--:|:--:|:--:|
    |Magnitude|0|1|0|
    |Direction|1|1|1|
    <div align = center><img src ="./assets/CH_7_Figure_9.png"></div>
 
-4. 写出A点的加速度矢量关系式:$A_2^n = A_4^n+A_4^t+A_4^{cor}+A_4^{slip}$, 根据已知量列出 Magnitude-Direction 表，并作图求得杆件 4 的角加速度
+4. 写出 A 点的加速度矢量关系式:$A_2^n = A_4^n+A_4^t+A_4^{cor}+A_4^{slip}$, 根据已知量列出 Magnitude-Direction 表，并作图求得杆件 4 的角加速度
    | Equation | $\boldsymbol{A}_2^n$ |$\boldsymbol{A}_4^n$ | $\boldsymbol{A}_4^t$ | $\boldsymbol{A}_{4}^{cor}$ | $\boldsymbol{A}_{4}^{slip}$ |
    | :-------: | :------------------: | :------------------:| :------------------: | :------------------: | :---------------------: |
    |Magnitude|1|1|0|1|0|
    |Magnitude|1|1|1|1|1|
    <div align = center><img src ="./assets/CH_7_Figure_10.png"></div>
 
-5. 取杆件4、5、6、地面组成的四杆机构，进行加速度分析，列出在C点的加速度矢量关系式: $(\boldsymbol{A}_C^t+\boldsymbol{A}_C^n)=(\boldsymbol{A}_B^t+\boldsymbol{A}_B^n)+(\boldsymbol{A}_{BC}^t+\boldsymbol{A}_{BC}^n)$, 列出 Magnitude-Direction 表，并作图求得杆件6的加速度
-   | Equation  | $\boldsymbol{A}_C^n$ | $\boldsymbol{A}_C^t$ | $\boldsymbol{A}_B^n$ | $\boldsymbol{A}_B^t$ | $\boldsymbol{A}_{BC}^n$ | $\boldsymbol{A}_{BC}^t$ |
+5. 取杆件 4、5、6、地面组成的四杆机构，进行加速度分析，列出在 C 点的加速度矢量关系式: $(\boldsymbol{A}_C^t+\boldsymbol{A}_C^n)=(\boldsymbol{A}_B^t+\boldsymbol{A}_B^n)+(\boldsymbol{A}_{BC}^t+\boldsymbol{A}_{BC}^n)$, 列出 Magnitude-Direction 表，并作图求得杆件 6 的加速度
+   | Equation | $\boldsymbol{A}_C^n$ | $\boldsymbol{A}_C^t$ | $\boldsymbol{A}_B^n$ | $\boldsymbol{A}_B^t$ | $\boldsymbol{A}_{BC}^n$ | $\boldsymbol{A}_{BC}^t$ |
    | :-------: | :------------------: | :------------------: | :------------------: | :------------------: | :---------------------: | :---------------------: |
-   | Magnitude |          1           |          0           |          1           |          1           |            1            |            0            |
-   | Direction |          1           |          1           |          1           |          1           |            1            |            1            |
+   | Magnitude | 1 | 0 | 1 | 1 | 1 | 0 |
+   | Direction | 1 | 1 | 1 | 1 | 1 | 1 |
    <div align = center><img src ="./assets/CH_7_Figure_11.png"></div>
 
 ## 7.3 Analytical Solutions For Acceleration Analysis
@@ -172,7 +172,7 @@ $$
 \alpha_3 = \frac{CE-BF}{AE-BD}\\[2ex]
 $$
 
-where $A = c\sin\theta_4$, $B = b\sin\theta_3$, $C = a\alpha_2\sin\theta_2+a\omega_2^2\cos\theta_2+b\omega_3^2\cos\theta_3-c\omega_4^2\cos\theta_4$ 
+where $A = c\sin\theta_4$, $B = b\sin\theta_3$, $C = a\alpha_2\sin\theta_2+a\omega_2^2\cos\theta_2+b\omega_3^2\cos\theta_3-c\omega_4^2\cos\theta_4$
 
 $D = c\cos\theta_4$, $E = b\cos\theta_3$ and $F = a\alpha_2\cos\theta_2-a\omega_2^2\sin\theta_2-b\omega_3^2\sin\theta_3+c\omega_4^2\sin\theta_4$
 
@@ -185,7 +185,7 @@ $D = c\cos\theta_4$, $E = b\cos\theta_3$ and $F = a\alpha_2\cos\theta_2-a\omega_
 $$
 R_3-R_3-R_4-R_1 = 0\\[2ex]
 ae^{j\theta_2}-be^{j\theta_3}-ce^{j\theta_4}-de^{j\theta_1} = 0\\[2ex]
-ja\omega_2e^{j\theta_2}-jb\omega_3e^{j\theta_3}-\dot{d} = 0\\[2ex] 
+ja\omega_2e^{j\theta_2}-jb\omega_3e^{j\theta_3}-\dot{d} = 0\\[2ex]
 (ja\alpha_2e^{j\theta_2}-a\omega_2^2e^{j\theta_2})-(b\alpha_3je^{j\theta_3}-b\omega_3^2e^{j\theta_3})-\ddot{d} = 0\\[2ex]
 $$
 
@@ -220,3 +220,60 @@ $$
 
 ## 7.4 Unit Vector Method for Acceleration Analysis
 
+Acceleration of point P
+
+$$
+\boldsymbol{A}_P = \boldsymbol{A}_O+\boldsymbol{A}+2\omega\times \boldsymbol{V}+\alpha\times \boldsymbol{R}+\omega\times(\omega\times \boldsymbol{R})
+$$
+
+$\boldsymbol{A}_P$: the absolute acceleration of point P
+
+$\boldsymbol{A}_O$: the absolute acceleration of the origin of moving axis system
+
+$\boldsymbol{A}$: the relative acceleration of point P with respect to the moving axis system
+
+$\boldsymbol{V}$ and $\boldsymbol{R}$: the velocity and position vectors of point P with respect to the moving axis system
+
+$\omega$ and $\alpha$: the angular velocity and acceleration of the moving axis system
+
+### Two Points on One Rigid Body
+
+$\boldsymbol{V} = 0$ and $\boldsymbol{A} = 0$
+
+$$
+A_P^n+A_P^t = A_O^n+A_O^t+A_{PO}^n+A_{PO}^t
+$$
+
+**Basic Four Bar Mechanism**
+
+<div align = center><img src ="./assets/CH_7_Figure_15.png"></div>
+
+$$
+A_B^n+A_B^t=A_A^n+A_A^t+A_{BA}^n+A_{BA}^t
+$$
+
+| Equation  |  $A_B^n$   |   $A_B^t$    |  $A_A^n$   |   $A_A^t$    | $A_{BA}^n$ | $A_{BA}^t$ |
+| :-------: | :--------: | :----------: | :--------: | :----------: | :--------: | :--------: |
+| Magnitude |     1      |      0       |     1      |      1       |     1      |     0      |
+| Direction | $B\to O_4$ | $\perp O_4B$ | $A\to O_2$ | $\perp O_2A$ |  $-i$  | $(+?-)j$ |
+
+### Two Coincident Points on Two Rigid Bodies
+
+$R = 0$
+
+$$
+A_P^n+A_P^t = A_O^n+A_O^t+A+A_{Coriolis}
+$$
+
+**Sliding Connection**
+
+<div align = center><img src ="./assets/CH_7_Figure_16.png"></div>
+
+$$
+A_{A_2}^n+A_{A_2}^t = A_{A_4}^n+A_{A_4}^t+A_{slip}+2\omega_4\times V_{slip}
+$$
+
+| Equation  |  $A_{A_2}^n$   |   $A_{A_2}^t$    |  $A_{A_4}^n$   |   $A_{A_4}^t$    | $A_{slip}$ | $\omega_4\times V_{slip}$ |
+| :-------: | :--------: | :----------: | :--------: | :----------: | :--------: | :--------: |
+| Magnitude |     1      |      1       |     1      |      0       |     0      |     1      |
+| Direction | $A\to O_2$ | $\perp O_2A$ | $A\to O_4$ | $\perp O_4A$ |  $(+?-)i$  | $j$ |
